@@ -1,0 +1,88 @@
+@import "colourVariable.less";
+
+.fontSize(@Variable:""){
+font-size: @Variable;
+}
+
+
+.fontFamily(@Variable:""){
+    font-family: @Variable;
+}
+
+.fontStyle(@VAriable:""){
+    font-style: @VAriable;
+}
+
+ .borderRadius(@Variable:""){
+
+/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+-webkit-border-radius: @Variable; 
+
+/* Firefox 1-3.6 */
+-moz-border-radius: @Variable; 
+
+/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+border-radius: @Variable; 
+ }
+
+ .borderColor(){
+   color: @renuBlue; 
+ }
+
+ .bgColor(@Variable:""){
+background-color: @Variable;
+ }
+
+ .fontColour(@Variable:""){
+color:@Variable;
+ }
+
+ .heightWidth(@Var:"",@Var1:"" ){
+margin: 12px auto;
+height: @Var;
+width: @Var1;
+ }
+
+ .bgImage(){
+     background-image: url("bg-01.jpg");
+     background-repeat: no-repeat;
+     background-size:100% 100%; 
+ }
+
+ .divborder() {
+    border-block: 1px solid @renuBlue;
+    // border-top: double 1px black;
+    // border-bottom: solid 2px black;
+  }
+
+  .box(){
+    
+   margin:auto ;
+   background: transparent;
+   width: 500px;
+   height: 530px;  
+  //text-align: center;  
+   position: absolute;
+   top:500px;
+	bottom: 300px;
+    left: 0;
+    right: 0;
+    
+}
+
+.opacity (@opacity: 0.12) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity: 		@opacity;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+
+
+
+

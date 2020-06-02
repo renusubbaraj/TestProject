@@ -1,0 +1,96 @@
+@import "colourVariable.less";
+@import "functionDeclaration.less";
+@import "fontVariable.less";
+@import "sizeVariable.less";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html,main{
+    /*
+    *Setting height and width of the entire page.
+    *Adding background using already defined method.
+    */
+    width: 100%;
+    height: 100%;
+    .bgImage();
+}
+
+p{
+    /*
+    *In a paragraph tag for Sign In text, 
+    */
+   
+ .fontFamily(@renuArial);
+ .fontSize(40px);
+ .fontStyle(normal);
+ .fontColour(black);
+ color: azure;  
+ text-align: center; 
+ }
+
+
+#renu{
+ 
+width: 100%;
+height: 100%;
+
+
+    div:nth-child(1){
+       
+     .box();
+
+       
+    input{
+        .opacity();
+       height: 40px;
+       width: 500px;
+       .borderRadius(12px);
+       .fontSize(20px);
+       .fontFamily(@renuArial);   
+       padding-left:20px;  
+      
+     }
+
+    /*
+    *For submit button changing the color of button during button hover
+    */
+     button{
+        .opacity();
+        .heightWidth(40px,90px);
+        .borderRadius(12px);
+        .fontSize(20px);
+        .fontFamily(@renuArial); 
+         position: relative;
+         float: right;
+        &:hover{
+            background-color:lighten(@renuBlue,20%);
+        }
+       
+        text-align: center; 
+        margin-right: 20px;       
+    }
+    button:nth-child(2){
+        .opacity();
+        .heightWidth(40px,90px);
+        .borderRadius(12px);
+        .fontSize(20px);
+        .fontFamily(@renuArial); 
+        float: right;
+       position: relative;
+
+        &:hover{
+            background-color:lighten(@renuRed,20%);
+        }
+        text-align: center;
+       margin-right: 20px;
+  
+    }
+       
+       
+       
+
+    }
+}
+

@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body,
+html,
+main {
+  /*
+    *Setting height and width of the entire page.
+    *Adding background using already defined method.
+    */
+  width: 100%;
+  height: 100%;
+  background-image: url("bg-01.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+p {
+  /*
+    *In a paragraph tag for Sign In text, 
+    */
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 40px;
+  font-style: normal;
+  color: black;
+  color: azure;
+  text-align: center;
+}
+#renu {
+  width: 100%;
+  height: 100%;
+}
+#renu div:nth-child(1) {
+  margin: auto ;
+  background: transparent;
+  width: 500px;
+  height: 530px;
+  position: absolute;
+  top: 500px;
+  bottom: 300px;
+  left: 0;
+  right: 0;
+  /*
+    *For submit button changing the color of button during button hover
+    */
+}
+#renu div:nth-child(1) input {
+  -webkit-opacity: 0.12;
+  -moz-opacity: 0.12;
+  opacity: 0.12;
+  height: 40px;
+  width: 500px;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 12px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 12px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "Arial, Helvetica, sans-serif";
+  padding-left: 20px;
+}
+#renu div:nth-child(1) button {
+  -webkit-opacity: 0.12;
+  -moz-opacity: 0.12;
+  opacity: 0.12;
+  margin: 12px auto;
+  height: 40px;
+  width: 90px;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 12px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 12px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "Arial, Helvetica, sans-serif";
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+}
+#renu div:nth-child(1) button:hover {
+  background-color: #6666ff;
+}
+#renu div:nth-child(1) button:nth-child(2) {
+  -webkit-opacity: 0.12;
+  -moz-opacity: 0.12;
+  opacity: 0.12;
+  margin: 12px auto;
+  height: 40px;
+  width: 90px;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 12px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 12px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "Arial, Helvetica, sans-serif";
+  float: right;
+  position: relative;
+  text-align: center;
+  margin-right: 20px;
+}
+#renu div:nth-child(1) button:nth-child(2):hover {
+  background-color: #ff6666;
+}
